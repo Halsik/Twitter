@@ -1,0 +1,786 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #15202B;
+    min-height: 1300px;
+}
+.box {
+    height: 100%;
+    background-color: #15202B;
+    right: 400px;
+}
+.conteiner {
+    
+    display: block;
+    display: flex;
+    margin-left: 100px;
+    height: 100%;
+    width: 255px;
+    border-right: 1px solid gray;
+}
+
+.fa-twitter {
+    position: absolute;
+    left: 93px;
+    margin-top: 10px;
+    color: white;
+    font-size: 29px;
+    padding: 8px;
+    transition-duration: 0.3s;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+
+.fa-twitter:hover {
+    
+    background-color: #1b3146;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.fa-home {
+    position: absolute;
+    font-size: 25px;
+    top: 70px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    transition-duration: 0.3s;
+    
+    
+}
+
+.fa-home:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 120px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+    
+}
+
+.fa-hashtag {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 130px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.fa-hashtag:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 150px;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -7px;
+    cursor: pointer;
+}
+.fa-bell {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 190px;
+    color: white;
+    transition-duration: 0.3s;
+    
+}
+.fa-bell:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 200px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+}    
+
+.fa-envelope {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 250px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.fa-envelope:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 165px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+.fa-tags {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 310px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.fa-tags:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 130px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+.fa-list-alt {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 370px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.fa-list-alt:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 100px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+.fa-user-alt {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 430px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.fa-user-alt:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 100px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+.fa-ellipsis-h {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 490px;
+    left: 93px;
+    color: white;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 110px;
+    
+}
+.fa-ellipsis-h:hover {
+    border: 1px solid rgba(23, 191, 99, 0.479);
+    background-color: rgba(23, 191, 99, 0.479);
+    border-radius: 50px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 110px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+
+p {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: -17px;
+    left: 50px
+}
+
+.tweet {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 12px 80px;
+    position:absolute;
+    top: 550px;
+    left: 90px;
+    color: white;
+    border-radius: 40px;
+    background-color: rgb(23, 191, 99);
+    border: 1px solid rgb(23, 191, 99);
+    transition-duration: 0.2s;
+    
+    
+}
+.tweet:hover {
+    background-color: rgba(23, 191, 99, 0.678);
+    border: 1px solid rgba(23, 191, 99, 0.678);
+    cursor: pointer;
+}
+
+.conteiner3 {
+    position: fixed;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 55px;
+    width: 597px;
+    left: 356px;
+    z-index:99999;
+    background-color: #15202B;
+}
+.nav {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    left: 10px;
+    margin: 10px;
+    top: 4px
+}
+.fa-star {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(23, 191, 99);
+    font-size: 23px;
+    margin: 13px;
+    margin-right: 15px;
+
+}
+.content1 {
+    position: fixed;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 130px;
+    width: 597px;
+    left: 356px;
+    top: 55px;
+    z-index: 9999;
+    background-color: #15202B;
+}
+
+.fa-user-circle {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.fa-user-circle:hover {
+    color:rgba(255, 255, 255, 0.712);
+    cursor: pointer;
+}
+
+.text {
+    background-color:#15202B;
+    position: absolute;
+    right: 60px;
+    top: 22px;
+    font-size: 22px;
+    border: 0px solid #15202B;
+    color: white;
+    width: 460px;
+}
+.content2 {
+    position: fixed;
+    border-top: 1px solid gray;
+    height: 44px;
+    width: 510px;
+    left: 430px;
+    top: 130px;
+    z-index: 9999;
+    background-color: #15202B;
+}
+
+.fa-image {
+    position: absolute;
+    font-size: 22px;
+    top: 5px;
+    left: 0;
+    color: rgb(23, 191, 99);
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+.fa-image:hover {
+    background-color: rgba(23, 191, 99, 0.295);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-camera {
+    position: absolute;
+    font-size: 21px;
+    top: 5px;
+    left: 40px;
+    color: rgb(23, 191, 99);
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+.fa-camera:hover {
+    background-color: rgba(23, 191, 99, 0.295);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-signal {
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 80px;
+    color: rgb(23, 191, 99);
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+.fa-signal:hover {
+    background-color: rgba(23, 191, 99, 0.295);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-smile {
+    position: absolute;
+    font-size: 22px;
+    top: 5px;
+    left: 120px;
+    color: rgb(23, 191, 99);
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+.fa-smile:hover {
+    background-color: rgba(23, 191, 99, 0.295);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-calendar-alt {
+    position: absolute;
+    font-size: 22px;
+    top: 5px;
+    left: 160px;
+    color: rgb(23, 191, 99);
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+.fa-calendar-alt:hover {
+    background-color: rgba(23, 191, 99, 0.295);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tweet2 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 9px 15px;
+    position:absolute;
+    color: white;
+    border-radius: 40px;
+    background-color: rgb(23, 191, 99);
+    border: 1px solid rgb(23, 191, 99);
+    transition-duration: 0.2s;
+    right: 1px;
+    top: 7px;
+}
+.tweet2:hover {
+    background-color: rgba(23, 191, 99, 0.678);
+    border: 1px solid rgba(23, 191, 99, 0.678);
+    cursor: pointer;
+    
+}
+
+.post1 {
+    position: absolute;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 300px;
+    width: 597px;
+    left: 356px;
+    top: 180px;
+    transition-duration: 0.2s;
+
+}
+.post1:hover {
+    background-color: #1d2c3b;
+}
+.post2 {
+    position: absolute;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 400px;
+    width: 597px;
+    left: 356px;
+    top: 480px;
+    transition-duration: 0.2s;
+}
+.post2:hover {
+    background-color: #1d2c3b;
+}
+.post3 {
+    position: absolute;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 430px;
+    width: 597px;
+    top: 400px;
+    transition-duration: 0.2s;
+}
+.post:hover {
+    background-color: #1d2c3b;
+}
+
+.logo1 {
+    
+    max-height: 100%;
+    width: auto;
+    z-index: 2;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0)
+}
+.logo1 {
+    cursor: pointer;
+}
+.photo1 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    z-index: 3;
+    top: 25px;
+    left: 20px;
+}
+
+.nick1 {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 75px;
+}
+.login1 {
+    
+    font-size: 14px;
+    left: 280px;
+    color: rgba(255, 255, 255, 0.534);
+    white-space: nowrap;
+    
+}
+.tekst1 {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    
+    top: 9px;
+    left: 75px;
+    word-wrap: normal;
+    width: 520px;
+}
+.tekst2 {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    top: 90px;
+    left: 75px;
+    word-wrap: normal;
+    width: 520px;
+}
+.tekst3 {
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(23, 191, 99);
+    top: 140px;
+    left: 75px;
+    word-wrap: normal;
+    width: 520px;
+}
+.tekst3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fonts1 {
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    font-size: 20px;
+    word-spacing: 90px;
+    color: rgba(255, 255, 255, 0.534);
+    transition-duration: 0.3s;
+    
+}
+
+.fa-comment:hover {
+    color: rgb(58, 144, 214);
+}
+.fa-share-square:hover {
+    color: rgb(23, 191, 99);
+}
+.fa-heart:hover {
+    color: red;
+}
+.fa-download:hover {
+    color: rgb(58, 144, 214);
+}
+
+.logo2 {
+    max-height: 100%;
+    width: auto;
+    z-index: 2;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0)
+}
+
+.photo2 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    z-index: 3;
+    top: 25px;
+    left: 20px;
+}
+.login12 {
+    font-size: 14px;
+    left: 195px;
+    color: rgba(255, 255, 255, 0.534);
+    white-space: nowrap;
+}
+.tekst12 {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    
+    top: 9px;
+    left: 75px;
+    word-wrap: normal;
+    width: 500px;
+}
+
+.obraz {
+
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    
+}
+.obrazz {
+    height: 200px;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.fonts2 {
+    position: absolute;
+    top: 320px;
+    left: 85px;
+    font-size: 20px;
+    word-spacing: 90px;
+    color: rgba(255, 255, 255, 0.534);
+    transition-duration: 0.3s;
+    white-space: nowrap;
+    
+}
+.logo3 {
+    max-height: 100%;
+    width: auto;
+    z-index: 2;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0)
+}
+
+.photo3 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    z-index: 3;
+    top: 10px;
+    left: 20px;
+}
+.obrazy {
+    margin-top: 10px;
+    height: 260px;
+    width: 520px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.fonts3 {
+    position: absolute;
+    top: 360px;
+    left: 85px;
+    font-size: 20px;
+    word-spacing: 90px;
+    color: rgba(255, 255, 255, 0.534);
+    transition-duration: 0.3s;
+    white-space: nowrap;
+}
+.wyszukiwarki {
+    top: 10px;
+    right: 400px;
+    position: absolute;
+    border-color: black;
+    
+}    
+
+.text2 {
+    position: relative;
+    font-size: 15px;
+    left: 300px;
+    padding: 10px 5px;
+    border-radius: 30px;
+    width: 340px;
+    background-color: #1d2c3b;
+    border: 1px solid #1d2c3b;
+    color: white;
+}
+
+.left {
+    width: 340px;
+    height: 500px;
+    background-color: #1d2c3b;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    border-radius: 15px;
+
+}
+.left1 {
+    color: white;
+    position: absolute;
+    left: 25px;
+    margin-top: 30px;
+}
+.header1 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    transition-duration: 0.2s;
+}
+.header1:hover {
+    background-color: #294057;
+    cursor: pointer;
+}
+.header2 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 131px;
+    transition-duration: 0.2s;
+    display: none;
+}
+.header2:hover {
+    background-color: #294057;
+    cursor: pointer;
+}
+.header3 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 212px;
+    transition-duration: 0.2s;
+}
+.header3:hover {
+    background-color: #294057;
+    cursor: pointer;
+}
+.header4 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 293px;
+    transition-duration: 0.2s;
+}
+.header4:hover {
+    background-color: #294057;
+    cursor: pointer;
+}
+.header5 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 370px;
+    transition-duration: 0.2s;
+}
+.header5:hover {
+    background-color: #294057;
+    cursor: pointer;
+}
+.header6 {
+    position: absolute;
+    top: 448px;
+    font-weight: 400;
+    font-size: 17px;
+    left: 20px;
+    color: rgb(23, 191, 99);
+
+}
+.header6:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.start {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    margin-top: 24px;
+}
+.start2 {
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 47px;
+}
+.start3 {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    margin-top: 70px;
+}
+  
